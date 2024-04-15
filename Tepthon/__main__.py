@@ -10,7 +10,7 @@ from .core.session import zedub
 from .utils import mybot, saves
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 
-LOGS = logging.getLogger("سورس تيبثون")
+LOGS = logging.getLogger("سورس زينون")
 cmdhr = Config.COMMAND_HAND_LER
 
 print(Tepthon.__copyright__)
@@ -19,7 +19,7 @@ print(f"المرخصة بموجب شروط  {Tepthon.__license__}")
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("✧ بـدء تنزيـل تيبــثون ✧")
+    LOGS.info("✧ بـدء تنزيـل زينون ✧")
     zedub.loop.run_until_complete(setup_bot())
     LOGS.info("✧ بـدء تشغيـل البـوت ✧")
 except Exception as e:
